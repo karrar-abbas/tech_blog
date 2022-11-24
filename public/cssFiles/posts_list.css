@@ -1,0 +1,90 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: black; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #b1b1b1;
+  }
+  
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+  .list_container{
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    position: relative;
+    padding: 13px;
+    margin-bottom: 5px;
+    background-color: #ccc;
+  }
+  
+  .delete {
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    padding: 4px 10px;
+    background-color: rgb(255, 34, 34);
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  #create {
+    margin-top: 10px;
+    padding: 4px 60px;
+  }
+  
